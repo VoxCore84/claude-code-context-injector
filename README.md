@@ -1,5 +1,7 @@
 # claude-code-context-injector
 
+![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue) ![License: MIT](https://img.shields.io/github/license/VoxCore84/claude-code-context-injector) ![GitHub release](https://img.shields.io/github/v/release/VoxCore84/claude-code-context-injector)
+
 Keyword-aware context injection for Claude Code -- smarter than git status on every prompt.
 
 ## The Problem
