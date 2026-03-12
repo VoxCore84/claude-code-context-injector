@@ -1,0 +1,87 @@
+{
+  "min_prompt_length": 10,
+  "categories": [
+    {
+      "name": "Python / Django",
+      "keywords": [
+        "django",
+        "models.py",
+        "views.py",
+        "migrations",
+        "serializer",
+        "queryset",
+        "manage.py",
+        "wsgi",
+        "asgi",
+        "celery"
+      ],
+      "context": "CONTEXT [Python/Django]: This project uses Django 5.x with DRF for the API layer. Models live in app/models/, serializers in app/api/serializers/. Run migrations with `python manage.py migrate`. Tests use pytest-django — run with `pytest --reuse-db`."
+    },
+    {
+      "name": "React / TypeScript",
+      "keywords": [
+        "react",
+        "tsx",
+        "jsx",
+        "component",
+        "usestate",
+        "useeffect",
+        "tailwind",
+        "nextjs",
+        "vite",
+        "zustand"
+      ],
+      "context": "CONTEXT [React/TS]: Frontend is React 19 + TypeScript + Tailwind CSS. Components in src/components/, pages in src/app/. State management via Zustand. Build with `npm run build`. Lint with `npm run lint`."
+    },
+    {
+      "name": "Database / SQL",
+      "keywords": [
+        "sql",
+        "migration",
+        "schema",
+        "postgres",
+        "mysql",
+        "sqlite",
+        "index",
+        "foreign key",
+        "join",
+        "alter table",
+        "create table"
+      ],
+      "context": "CONTEXT [Database]: Primary database is PostgreSQL 16. Always DESCRIBE a table before writing INSERT/UPDATE statements — verify column names and count. Migrations are version-controlled in db/migrations/. Never run destructive DDL without confirming with the user first."
+    },
+    {
+      "name": "DevOps / CI",
+      "keywords": [
+        "docker",
+        "dockerfile",
+        "ci",
+        "github actions",
+        "deploy",
+        "pipeline",
+        "kubernetes",
+        "helm",
+        "terraform",
+        "nginx",
+        "env vars"
+      ],
+      "context": "CONTEXT [DevOps]: CI runs via GitHub Actions (.github/workflows/). Docker images built with multi-stage Dockerfile. Production deploys go through staging first. Environment variables are in .env.example (never commit real .env files). Infrastructure is defined in infra/ using Terraform."
+    },
+    {
+      "name": "Testing",
+      "keywords": [
+        "test",
+        "pytest",
+        "jest",
+        "unittest",
+        "coverage",
+        "mock",
+        "fixture",
+        "e2e",
+        "playwright",
+        "cypress"
+      ],
+      "context": "CONTEXT [Testing]: Backend tests use pytest (tests/). Frontend tests use Jest + React Testing Library (src/__tests__/). E2E tests use Playwright (e2e/). Run all with `make test`. Aim for >80% coverage on new code. Always run the relevant test suite after making changes."
+    }
+  ]
+}
