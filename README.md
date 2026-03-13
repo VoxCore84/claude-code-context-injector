@@ -1,6 +1,6 @@
-# claude-code-context-injector
+# Smart Context Injector for Claude Code
 
-![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue) ![License: MIT](https://img.shields.io/github/license/VoxCore84/claude-code-context-injector) ![GitHub release](https://img.shields.io/github/v/release/VoxCore84/claude-code-context-injector)
+![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue) ![License: MIT](https://img.shields.io/github/license/VoxCore84/claude-code-context-injector) ![GitHub release](https://img.shields.io/github/v/release/VoxCore84/claude-code-context-injector)
 
 Keyword-aware context injection for Claude Code -- smarter than git status on every prompt.
 
@@ -154,7 +154,7 @@ All behavior is controlled by `config.json`, which sits alongside `context-injec
 
 ## Requirements
 
-- Python 3.10+ (uses `list[str]` type hint syntax)
+- Python 3.9+ (uses `list[str]` type hint syntax)
 - Claude Code with hooks support
 
 ## License
