@@ -15,7 +15,7 @@
         "asgi",
         "celery"
       ],
-      "context": "CONTEXT [Python/Django]: This project uses Django 5.x with DRF for the API layer. Models live in app/models/, serializers in app/api/serializers/. Run migrations with `python manage.py migrate`. Tests use pytest-django — run with `pytest --reuse-db`."
+      "context": "CONTEXT [Python/Django]: This project uses Django 5.x with DRF for the API layer. Models live in app/models/, serializers in app/api/serializers/. Run migrations with `python manage.py migrate`. Tests use pytest-django -- run with `pytest --reuse-db`."
     },
     {
       "name": "React / TypeScript",
@@ -48,7 +48,7 @@
         "alter table",
         "create table"
       ],
-      "context": "CONTEXT [Database]: Primary database is PostgreSQL 16. Always DESCRIBE a table before writing INSERT/UPDATE statements — verify column names and count. Migrations are version-controlled in db/migrations/. Never run destructive DDL without confirming with the user first."
+      "context": "CONTEXT [Database]: Primary database is PostgreSQL 16. Always DESCRIBE a table before writing INSERT/UPDATE statements -- verify column names and count. Migrations are version-controlled in db/migrations/. Never run destructive DDL without confirming with the user first."
     },
     {
       "name": "DevOps / CI",

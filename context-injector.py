@@ -5,7 +5,7 @@ Claude Code UserPromptSubmit Hook: Keyword-Aware Context Injection
 Instead of injecting git status (or other boilerplate) on every single prompt,
 this hook pattern-matches keywords in the user's message and injects only the
 context that is actually relevant. Short prompts like "yes", "ok", and
-"continue" get nothing injected — zero wasted tokens.
+"continue" get nothing injected -- zero wasted tokens.
 
 Usage:
     Registered as a UserPromptSubmit hook in .claude/settings.local.json.
@@ -68,7 +68,7 @@ def main() -> None:
     try:
         data = json.load(sys.stdin)
     except Exception:
-        # Malformed input — exit silently, don't block the user.
+        # Malformed input -- exit silently, don't block the user.
         sys.exit(0)
 
     prompt = data.get("prompt", "")
